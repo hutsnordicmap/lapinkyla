@@ -2,24 +2,59 @@ export type Locale = "fi" | "en";
 
 const MAP_CENTER = "lat=67.766210&lng=24.857310&zoom=12.00";
 
+const tripAdvisor =
+  "https://www.tripadvisor.ie/Attraction_Review-g677549-d1646546-Reviews-Levin_Lapinkyla-Levi_Lapland.html";
+
+export const chrome = {
+  fi: {
+    homeHref: "/",
+    currentLabel: "Suomi",
+    otherLabel: "English",
+    languageName: "Kieli",
+    footnoteBefore: "Lapinkylä.fi oli aiemmin Levin Lapinkylä Oy:n verkkosivusto (",
+    footnoteLink: "entinen TripAdvisor-profiili",
+    footnoteAfter: "). Verkkotunnus on nyt erillinen ja itsenäinen sivu.",
+    tripAdvisor,
+  },
+  en: {
+    homeHref: "/en",
+    currentLabel: "English",
+    otherLabel: "Suomi",
+    languageName: "Language",
+    footnoteBefore: "Lapinkylä.fi used to be the website of Levin Lapinkylä Oy (",
+    footnoteLink: "former TripAdvisor profile",
+    footnoteAfter: "). The domain is now a separate, independent page.",
+    tripAdvisor,
+  },
+} as const;
+
 export const site = {
   fi: {
     locale: "fi" as const,
-    htmlLang: "fi",
     path: "/",
     otherHref: "/en",
-    otherLabel: "English",
-    currentLabel: "Suomi",
-    languageName: "Kieli",
     title: "Lapinkylä, Sirkka",
     description:
-      "Lapinkylä on paikka Levin eteläpuolella Kittilän Sirkassa. Sivu on itsenäinen, ja siitä on tarkoitus kasvaa kartta Lapin vanhoista kylistä.",
+      "Itsenäinen sivu Kittilän lapinkylästä Sirkassa. Historia, yhdistys ja kartta seudusta.",
     place: "Sirkka, Kittilä",
     heading: "Lapinkylä",
     intro:
-      "Lapinkylä on paikka Levin eteläpuolella, Kittilän Sirkassa. Tämä sivusto on siitä erillinen. Myöhemmin siitä on tarkoitus tulla kartta Lapin vanhoista kylistä ja saamelaisista paikoista.",
+      "Lapinkylä on paikka Levin eteläpuolella, Kittilän Sirkassa. Tämä sivusto on siitä erillinen. Se alkaa Kittilän lapinkylän historiasta ja yhdistyksestä, joka sitä vaalii. Myöhemmin siitä on tarkoitus tulla kartta Lapin vanhoista kylistä.",
     history:
       "Tämä verkkotunnus oli aiemmin Levin Lapinkylä Oy:n sivusto. Yritys tarjosi Sirkassa poroajeluja, kahvilaa ja mökkimajoitusta. Tämä sivu ei jatka sitä toimintaa, eikä täältä voi tehdä varauksia.",
+    topicsHeading: "Sivustolla",
+    topics: [
+      {
+        href: "/historia",
+        title: "Historia",
+        text: "Miten Kittilän lapinkylä toimi, ja mitä veromaille tapahtui.",
+      },
+      {
+        href: "/yhdistys",
+        title: "Yhdistys",
+        text: "Kittilän Lapinkylä ry ja tekeillä oleva historiakirja.",
+      },
+    ],
     mapHeading: "Kartta",
     mapIntro: "Kittilä, Lapinkylän tienoo.",
     embedTitle: "Kittilän kartta, Lapinkylän tienoo",
@@ -49,30 +84,33 @@ export const site = {
         text: "Yleisiä ja vuokrattavia saunoja Kittilässä.",
       },
     ],
-    footnoteBefore: "Lapinkylä.fi oli aiemmin Levin Lapinkylä Oy:n verkkosivusto (",
-    footnoteLink: "entinen TripAdvisor-profiili",
-    footnoteAfter:
-      "). Verkkotunnus on nyt erillinen ja itsenäinen sivu.",
-    tripAdvisor:
-      "https://www.tripadvisor.ie/Attraction_Review-g677549-d1646546-Reviews-Levin_Lapinkyla-Levi_Lapland.html",
   },
   en: {
     locale: "en" as const,
-    htmlLang: "en",
     path: "/en",
     otherHref: "/",
-    otherLabel: "Suomi",
-    currentLabel: "English",
-    languageName: "Language",
     title: "Lapinkylä, Sirkka",
     description:
-      "Lapinkylä is a place south of Levi, in Sirkka, Kittilä. This independent page is meant to grow into a map of old villages in Lapland.",
+      "An independent page about the Kittilä siida in Sirkka. History, the association, and a map of the area.",
     place: "Sirkka, Kittilä",
     heading: "Lapinkylä",
     intro:
-      "Lapinkylä is a place south of Levi, in Sirkka, Kittilä. This is an independent page about that place. Over time it is meant to become a map of old villages in Lapland and of Sámi places.",
+      "Lapinkylä is a place south of Levi, in Sirkka, Kittilä. This is an independent page about that place. It starts with the history of the Kittilä siida and the association that looks after it. Over time it is meant to become a map of old villages in Lapland.",
     history:
       "This domain used to be the website of Levin Lapinkylä Oy, which offered reindeer rides, a café, and cabin stays in Sirkka. This page does not carry on that business, and you cannot make a booking here.",
+    topicsHeading: "On this site",
+    topics: [
+      {
+        href: "/en/history",
+        title: "History",
+        text: "How the Kittilä siida worked, and what happened to the family tax lands.",
+      },
+      {
+        href: "/en/association",
+        title: "The association",
+        text: "Kittilän Lapinkylä ry and the history book they are writing.",
+      },
+    ],
     mapHeading: "Map",
     mapIntro: "Kittilä, around Lapinkylä.",
     embedTitle: "Map of Kittilä, around Lapinkylä",
@@ -102,12 +140,6 @@ export const site = {
         text: "Public and bookable saunas in Kittilä.",
       },
     ],
-    footnoteBefore:
-      "Lapinkylä.fi used to be the website of Levin Lapinkylä Oy (",
-    footnoteLink: "former TripAdvisor profile",
-    footnoteAfter: "). The domain is now a separate, independent page.",
-    tripAdvisor:
-      "https://www.tripadvisor.ie/Attraction_Review-g677549-d1646546-Reviews-Levin_Lapinkyla-Levi_Lapland.html",
   },
 } as const;
 
