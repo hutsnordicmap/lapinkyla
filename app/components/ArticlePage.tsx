@@ -23,6 +23,14 @@ export function ArticlePage({ copy }: { copy: ArticleCopy }) {
                 {paragraph}
               </p>
             ))}
+            {section.more ? (
+              <a
+                href={section.more.href}
+                className="font-semibold text-pine underline decoration-pine/40 underline-offset-4"
+              >
+                {section.more.label}
+              </a>
+            ) : null}
           </section>
         ))}
 
@@ -37,9 +45,14 @@ export function ArticlePage({ copy }: { copy: ArticleCopy }) {
                   href={source.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block py-4 font-semibold text-pine underline decoration-transparent underline-offset-4 hover:decoration-pine/40"
+                  className="block py-4"
                 >
-                  {source.label}
+                  <span className="font-semibold text-pine underline decoration-transparent underline-offset-4 hover:decoration-pine/40">
+                    {source.label}
+                  </span>
+                  {source.note ? (
+                    <span className="mt-1 block font-normal text-muted">{source.note}</span>
+                  ) : null}
                 </a>
               </li>
             ))}

@@ -47,7 +47,12 @@ export const site = {
       {
         href: "/historia",
         title: "Historia",
-        text: "Miten Kittilän lapinkylä toimi, ja mitä veromaille tapahtui.",
+        text: "Kittilä vuoden 1642 kartassa, ja mitä veromaista on luettu.",
+      },
+      {
+        href: "/kylat",
+        title: "Kylät vuonna 1642",
+        text: "Kemin Lapin kylät Treskin kartalta, ilman rajoja.",
       },
       {
         href: "/yhdistys",
@@ -103,7 +108,12 @@ export const site = {
       {
         href: "/en/history",
         title: "History",
-        text: "How the Kittilä siida worked, and what happened to the family tax lands.",
+        text: "Kittilä on the 1642 map, and how the tax lands have been read.",
+      },
+      {
+        href: "/en/villages",
+        title: "Villages in 1642",
+        text: "The Kemi Lappmark villages from Tresk’s map, without borders.",
       },
       {
         href: "/en/association",
