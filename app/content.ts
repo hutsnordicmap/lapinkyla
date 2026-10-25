@@ -45,6 +45,11 @@ export const site = {
     topicsHeading: "Sivustolla",
     topics: [
       {
+        href: "/siida",
+        title: "Siida",
+        text: "Mitä lapinkylä oli: kolmetoista kylää, veromaa ja verotus.",
+      },
+      {
         href: "/historia",
         title: "Historia",
         text: "Kittilä vuoden 1642 kartassa, ja mitä veromaista on luettu.",
@@ -105,6 +110,11 @@ export const site = {
       "This domain used to be the website of Levin Lapinkylä Oy, which offered reindeer rides, a café, and cabin stays in Sirkka. This page does not carry on that business, and you cannot make a booking here.",
     topicsHeading: "On this site",
     topics: [
+      {
+        href: "/en/siida",
+        title: "Siida",
+        text: "What a lapinkylä was: thirteen villages, the tax land, and taxation.",
+      },
       {
         href: "/en/history",
         title: "History",
