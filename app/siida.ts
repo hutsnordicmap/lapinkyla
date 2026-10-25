@@ -65,6 +65,23 @@ export const siida: Record<"fi" | "en", ArticleCopy> = {
           "Nykyisen Suomen alueella kokonaan tai osittain oli kolmetoista lapinkylää. Tornion Lapissa: Rounala, Suonttavaara, Peltojärvi, Teno ja Utsjoki. Kemin Lapissa: Maanselkä, Kitka, Kuolajärvi, Keminkylä, Sompio, Sodankylä, Kittilä ja Inari. (Ensyklopedia, Lapinkylät ja veromaat)",
           "Tutkijat ovat lähteneet siitä, että jako kyliin ja veromaihin oli alun perin saamelaisen yhteiskunnan oma maankäyttö. Valtiot ottivat saman jaon myöhemmin käyttöön käräjissä ja verotuksessa. (Ensyklopedia, Lapinkylät ja veromaat)",
         ],
+        figures: [
+          {
+            src: "/maps/lapinmaat.png",
+            alt: "Kaaviokartta, jossa Lapin alueet on väritetty kylittäin. Keltainen on Kemin Lappi, sininen Tornion Lappi.",
+            caption:
+              "Lapinmaat jaettuna kyliin. Piirtäjä on merkinnyt myös Jäämeren, Koltan ja Kuolan lapin, jotka ovat kuuden edellä mainitun alueen ulkopuolella. Kaavio, ei mitattu raja.",
+            fileHref: "https://commons.wikimedia.org/wiki/File:Lapinmaat.png",
+            fileLabel: "Lapinmaat.png",
+          },
+          {
+            src: "/maps/lapinkylat.jpg",
+            alt: "Kaaviokartta 1600-luvun lapinkylistä. Mukana ovat muun muassa Kittilä, Inari, Sompio ja Sodankylä.",
+            caption: "Lapinkylät 1600-luvulla piirtäjän mukaan. Kaavio, ei mitattu raja.",
+            fileHref: "https://commons.wikimedia.org/wiki/File:Lapinkylat.jpg",
+            fileLabel: "Lapinkylat.jpg",
+          },
+        ],
       },
       {
         id: "vuosi",
@@ -83,6 +100,24 @@ export const siida: Record<"fi" | "en", ArticleCopy> = {
           "Viimeistään keskiajalla samoja kyliä verottivat Ruotsi, Venäjä ja Norja. Norjan kuninkaan tiedetään verottaneen Jäämeren rannikon kalastajasaamelaisia jo 1100-luvulla. Ruotsi antoi 1200-luvulla verotuksen ja kaupan pirkkalaisille. (Ensyklopedia, Lapinverotus)",
           "Ruotsin verotusalueella Venäjälle maksoivat myös Sompio, Kuolajärvi, Kitka, Maanselkä, Keminkylä ja Sodankylä. Kolmelle valtiolle maksoivat Inari, Kautokeino, Aviovaara, Lappajärvi, Teno ja Utsjoki. (Ensyklopedia, Lapinverotus)",
           "Norjan ja Ruotsin yhteisverotus päättyi Strömstadin rauhaan vuonna 1751. Venäjän vero läntisemmissä Tornion Lapin kylissä lakkasi jo 1500-luvun lopulla. Kemin Lapissa Venäjän veroa maksettiin vuoteen 1814. (Ensyklopedia, Lapinverotus)",
+        ],
+        figures: [
+          {
+            src: "/maps/lappi-keskiaika.png",
+            alt: "Kaaviokartta Ruotsin, Norjan ja Novgorodin verotusalueista Lapissa.",
+            caption:
+              "Ruotsin, Norjan ja Novgorodin verotusalueet keskiajalla ja uuden ajan alussa, piirtäjän mukaan. Värit ovat piirtäjän tulkinta. Tämän osion virkkeet seuraavat ensyklopediaa.",
+            fileHref: "https://commons.wikimedia.org/wiki/File:Lappi-Keskiaika.png",
+            fileLabel: "Lappi-Keskiaika.png",
+          },
+          {
+            src: "/maps/lappi-1600-luku.png",
+            alt: "Kaaviokartta Ruotsin, Norjan ja Venäjän alueista Lapissa vuosina 1613–1751.",
+            caption:
+              "Ruotsin, Norjan ja Venäjän alueet Lapissa vuosina 1613–1751, piirtäjän mukaan. Vinoviivoitus on piirtäjän merkki Venäjän verotusoikeudesta. Kaavio, ei mitattu raja.",
+            fileHref: "https://commons.wikimedia.org/wiki/File:Lappi-1600-luku.png",
+            fileLabel: "Lappi-1600-luku.png",
+          },
         ],
         more: { href: "/historia", label: "Kittilän lapinkylä" },
       },
@@ -118,6 +153,24 @@ export const siida: Record<"fi" | "en", ArticleCopy> = {
           "Thirteen villages lay wholly or partly in present-day Finland. In Torne Lapp: Rounala, Suonttavaara, Peltojärvi, Teno, and Utsjoki. In Kemi Lapp: Maanselkä, Kitka, Kuolajärvi, Keminkylä, Sompio, Sodankylä, Kittilä, and Inari. (Encyclopaedia, Lapp villages and tax lands)",
           "Researchers have taken this division into villages and tax lands as originally the Sámi society’s own way of using the land. The states later used the same division for courts and for taxation. (Encyclopaedia, Lapp villages and tax lands)",
         ],
+        figures: [
+          {
+            src: "/maps/lapinmaat.png",
+            alt: "Schematic map of the Lapp regions, coloured by village. Yellow is Kemi Lapp, blue is Torne Lapp.",
+            caption:
+              "The Lapp regions split into villages. The artist also drew the Arctic coast, the Skolt area, and Kola, outside the six regions named above. A schematic drawing, not a measured boundary.",
+            fileHref: "https://commons.wikimedia.org/wiki/File:Lapinmaat.png",
+            fileLabel: "Lapinmaat.png",
+          },
+          {
+            src: "/maps/lapinkylat.jpg",
+            alt: "Schematic map of 17th-century villages, including Kittilä, Inari, Sompio, and Sodankylä.",
+            caption:
+              "Villages in the 1600s, as drawn by the artist. A schematic drawing, not a measured boundary.",
+            fileHref: "https://commons.wikimedia.org/wiki/File:Lapinkylat.jpg",
+            fileLabel: "Lapinkylat.jpg",
+          },
+        ],
       },
       {
         id: "year",
@@ -139,6 +192,24 @@ export const siida: Record<"fi" | "en", ArticleCopy> = {
           "By the Middle Ages at the latest, the same villages were taxed by Sweden, Russia, and Norway. The king of Norway is known to have taxed the fishing Sámi of the Arctic coast already in the 1100s. In the 1200s Sweden gave the right to tax, and to trade, to the Birkarls. (Encyclopaedia, Taxation)",
           "On the Swedish tax area, Sompio, Kuolajärvi, Kitka, Maanselkä, Keminkylä, and Sodankylä also paid Russia. Inari, Kautokeino, Aviovaara, Lappajärvi, Teno, and Utsjoki paid all three states. (Encyclopaedia, Taxation)",
           "Joint Swedish and Norwegian taxation ended with the Peace of Strömstad in 1751. Russian tax in the more westerly Torne Lapp villages had already stopped at the end of the 1500s. In Kemi Lapp, tax to Russia was paid until 1814. (Encyclopaedia, Taxation)",
+        ],
+        figures: [
+          {
+            src: "/maps/lappi-keskiaika.png",
+            alt: "Schematic map of Swedish, Norwegian, and Novgorod tax areas in Lapland.",
+            caption:
+              "Swedish, Norwegian, and Novgorod tax areas in the Middle Ages and the early modern period, as drawn by the artist. The colours are the artist’s reading. The sentences in this section follow the encyclopaedia.",
+            fileHref: "https://commons.wikimedia.org/wiki/File:Lappi-Keskiaika.png",
+            fileLabel: "Lappi-Keskiaika.png",
+          },
+          {
+            src: "/maps/lappi-1600-luku.png",
+            alt: "Schematic map of Swedish, Norwegian, and Russian areas in Lapland, 1613 to 1751.",
+            caption:
+              "Swedish, Norwegian, and Russian areas in Lapland, 1613–1751, as drawn by the artist. The hatching is the artist’s mark for a Russian right to tax. A schematic drawing, not a measured boundary.",
+            fileHref: "https://commons.wikimedia.org/wiki/File:Lappi-1600-luku.png",
+            fileLabel: "Lappi-1600-luku.png",
+          },
         ],
         more: { href: "/en/history", label: "The Kittilä siida" },
       },

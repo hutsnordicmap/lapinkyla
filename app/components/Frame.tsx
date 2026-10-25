@@ -4,16 +4,20 @@ import { chrome, type Locale } from "@/app/content";
 export function Frame({
   locale,
   otherHref,
+  wide = false,
   children,
 }: {
   locale: Locale;
   otherHref: string;
+  wide?: boolean;
   children: ReactNode;
 }) {
   const bar = chrome[locale];
 
   return (
-    <div className="mx-auto flex min-h-full w-full max-w-2xl flex-col px-5 py-8 sm:py-14">
+    <div
+      className={`mx-auto flex min-h-full w-full flex-col px-5 py-8 sm:py-14 ${wide ? "max-w-4xl" : "max-w-2xl"}`}
+    >
       <header className="flex items-baseline justify-between gap-4 border-b border-line pb-4">
         <a href={bar.homeHref} className="font-serif text-xl text-ink">
           Lapinkylä

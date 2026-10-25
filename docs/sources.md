@@ -16,6 +16,7 @@ A sentence on the site names its source. A link is always allowed. A map image, 
 | [Kittilä culture week, 11 April 2026](https://kittila.fi/vapaa-aika-ja-hyvinvointi/kulttuuripalvelut/kittilan-kulttuuriviikko-10-2042026) and the [workshop recording](https://www.youtube.com/watch?v=G5Mv2xCMl1A). | The date and place of the workshop, and that a recording exists. | The video file. Embedding can wait. |
 | National Land Survey of Finland background map, CC BY 4.0, with their credit line. | A base map, later, under dots we place ourselves. | Historical borders. The survey’s modern municipal line is not a siida border. |
 | [Saamelaiskulttuurin ensyklopedia](https://www.saamelaisensyklopedia.fi/wiki/Lapinkyl%C3%A4t_ja_veromaat.html): Siida, Lapinkylät ja veromaat, Lapinverotus. | A short restatement of the village system, the thirteen villages, the 1695 reform, and who taxed them. Each sentence on `/siida` names the article. | The articles copied. Their maps, if any. |
+| Ximfel1, four schematic drawings on Wikimedia Commons, CC BY-SA 4.0: [Lapinmaat.png](https://commons.wikimedia.org/wiki/File:Lapinmaat.png), [Lapinkylat.jpg](https://commons.wikimedia.org/wiki/File:Lapinkylat.jpg), [Lappi-Keskiaika.png](https://commons.wikimedia.org/wiki/File:Lappi-Keskiaika.png), [Lappi-1600-luku.png](https://commons.wikimedia.org/wiki/File:Lappi-1600-luku.png). | Shown unchanged on `/siida`, with the artist, the file page, and the licence linked under each image. Copies in `public/maps/` are the original files. | Cropping, recoloring, or tracing them into polygons. A changed file would have to be published under CC BY-SA 4.0. The lines are the artist’s, not a surveyed siida border, and not a source for a sentence. |
 
 ## Check the license, then we might show it
 
@@ -43,7 +44,7 @@ A sentence on the site names its source. A link is always allowed. A map image, 
 - Veli-Pekka Lehtola, “Eteläisen Suomen muinaiset lappalaiset,” Muinaistutkija 4/2008. One side of the argument about southern place names. Read the article before any sentence about that fight.
 - Ante Aikio, “An essay on Saami ethnolinguistic prehistory,” 2012. Free PDF from the Finno-Ugrian Society: https://sgr.fi/sust/sust266/sust266_aikio.pdf. It is about the spread of Proto-Sámi, not a verdict on the name Lapinkylä. Read it before using it.
 - T. I. Itkonen, *Suomen lappalaiset vuoteen 1945*, vol. 1 (1948). Still in copyright. Wikipedia’s village table rests on this book and gives no page numbers. Use it only after a library copy has been read page by page. Do not scan it or copy its maps.
-- The four Wikipedia drawings of Lapland villages (Ximfel1, CC BY-SA 4.0). An unchanged image can be shown with the artist’s name, a link to the file, and a link to the licence. We are not using them. They are small schematic drawings, and they may follow Itkonen’s maps. Do not trace them into polygons.
+- Do not trace the four Ximfel1 drawings into polygons. They are on `/siida` only as unchanged images. The Commons pages call them the artist’s own work. If a line is in fact copied from Itkonen’s printed map, that book is still in copyright and the Commons licence would not clear it. Treat the drawings as illustrations, not as a source.
 
 ## Written on the site only after a page citation exists
 

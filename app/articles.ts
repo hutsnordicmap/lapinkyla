@@ -14,6 +14,7 @@ export type ArticleCopy = {
     heading: string;
     paragraphs: string[];
     more?: { href: string; label: string };
+    figures?: { src: string; alt: string; caption: string; fileHref: string; fileLabel: string }[];
   }[];
   sourcesHeading: string;
   sources: { href: string; label: string; note?: string }[];
