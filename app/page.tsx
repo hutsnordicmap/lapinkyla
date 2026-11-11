@@ -5,7 +5,7 @@ import { site } from "@/app/content";
 const copy = site.fi;
 
 export const metadata: Metadata = {
-  title: copy.title,
+  title: { absolute: copy.title },
   description: copy.description,
   alternates: {
     canonical: "/",

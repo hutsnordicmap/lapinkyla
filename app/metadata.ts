@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
-import type { ArticleCopy } from "@/app/articles";
 
-export function pageMetadata(copy: ArticleCopy): Metadata {
+type PageMeta = {
+  locale: "fi" | "en";
+  path: string;
+  otherHref: string;
+  title: string;
+  description: string;
+};
+
+export function pageMetadata(copy: PageMeta): Metadata {
   const fi = copy.locale === "fi" ? copy.path : copy.otherHref;
   const en = copy.locale === "en" ? copy.path : copy.otherHref;
 

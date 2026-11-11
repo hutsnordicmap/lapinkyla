@@ -3,11 +3,13 @@
 @theme inline {
   --font-sans: var(--font-source);
   --font-serif: var(--font-newsreader);
-  --color-paper: #f3eee6;
-  --color-ink: #1c1915;
-  --color-pine: #1e3a32;
-  --color-muted: #5e584e;
-  --color-line: #e3dcd0;
+  --color-paper: #f4f7f5;
+  --color-ink: #12211a;
+  --color-pine: #1c6b45;
+  --color-muted: #5c675f;
+  --color-line: #d5e0d8;
+  --color-night: #10241c;
+  --color-moss: #e7f2eb;
 }
 
 body {

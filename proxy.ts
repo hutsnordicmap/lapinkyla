@@ -28,6 +28,7 @@ export function proxy(request: NextRequest) {
   const locale =
     pathname === "/en" || pathname.startsWith("/en/") ? "en" : "fi";
   requestHeaders.set("x-locale", locale);
+  requestHeaders.set("x-pathname", pathname);
 
   return NextResponse.next({
     request: { headers: requestHeaders },

@@ -33,9 +33,9 @@ export const site = {
     locale: "fi" as const,
     path: "/",
     otherHref: "/en",
-    title: "Lapinkylä, Sirkka",
+    title: "Lapinkylä, Kittilän saamelaiskylä",
     description:
-      "Itsenäinen sivu Kittilän lapinkylästä Sirkassa. Historia, yhdistys ja kartta seudusta.",
+      "Kittilän lapinkylä Sirkassa, ja saamelainen historia kuvina: puku, asumus, veneet, työ ja vuoden 1674 kirja.",
     place: "Sirkka, Kittilä",
     heading: "Lapinkylä",
     intro:
@@ -44,6 +44,161 @@ export const site = {
       "Tämä verkkotunnus oli aiemmin Levin Lapinkylä Oy:n sivusto. Yritys tarjosi Sirkassa poroajeluja, kahvilaa ja mökkimajoitusta. Tämä sivu ei jatka sitä toimintaa, eikä täältä voi tehdä varauksia.",
     topicsHeading: "Sivustolla",
     topics: [
+      {
+        href: "/puku",
+        title: "Puku",
+        text: "",
+      },
+      {
+        href: "/asumus",
+        title: "Asumus",
+        text: "",
+      },
+      {
+        href: "/vene",
+        title: "Vene",
+        text: "",
+      },
+      {
+        href: "/kalastus",
+        title: "Kalastus",
+        text: "",
+      },
+      {
+        href: "/neulonta",
+        title: "Neulonta",
+        text: "",
+      },
+      {
+        href: "/kielet",
+        title: "Kielet",
+        text: "",
+      },
+      {
+        href: "/valineet",
+        title: "Välineet",
+        text: "",
+      },
+      {
+        href: "/tyo",
+        title: "Työ",
+        text: "",
+      },
+      {
+        href: "/nimi",
+        title: "Nimi",
+        text: "",
+      },
+      {
+        href: "/ruoka",
+        title: "Ruoka",
+        text: "",
+      },
+      {
+        href: "/metsastys",
+        title: "Metsästys",
+        text: "",
+      },
+      {
+        href: "/naiset",
+        title: "Naisten työ",
+        text: "",
+      },
+      {
+        href: "/uskonto",
+        title: "Uskonto",
+        text: "",
+      },
+      {
+        href: "/rumpu",
+        title: "Rumpu",
+        text: "",
+      },
+      {
+        href: "/leikit",
+        title: "Leikit",
+        text: "",
+      },
+      {
+        href: "/haat",
+        title: "Häät",
+        text: "",
+      },
+      {
+        href: "/poro",
+        title: "Poro",
+        text: "",
+      },
+      {
+        href: "/vero",
+        title: "Vero",
+        text: "",
+      },
+      {
+        href: "/markkinat",
+        title: "Markkinat",
+        text: "",
+      },
+      {
+        href: "/lapset",
+        title: "Lapset",
+        text: "",
+      },
+      {
+        href: "/hautaus",
+        title: "Hautaus",
+        text: "",
+      },
+      {
+        href: "/koulu",
+        title: "Koulu",
+        text: "",
+      },
+      {
+        href: "/vuosi",
+        title: "Vuosi",
+        text: "",
+      },
+      {
+        href: "/aseet",
+        title: "Aseet",
+        text: "",
+      },
+      {
+        href: "/elaimet",
+        title: "Eläimet",
+        text: "",
+      },
+      {
+        href: "/linnut",
+        title: "Linnut",
+        text: "",
+      },
+      {
+        href: "/metallit",
+        title: "Metallit",
+        text: "",
+      },
+      {
+        href: "/puut",
+        title: "Puut",
+        text: "",
+      },
+      {
+        href: "/kivet",
+        title: "Kivet",
+        text: "",
+      },
+      {
+        href: "/joet",
+        title: "Joet",
+        text: "",
+      },
+      {
+        href: "/tunturit",
+        title: "Tunturit",
+        text: "",
+      },
       {
         href: "/siida",
         title: "Siida",
@@ -99,9 +254,9 @@ export const site = {
     locale: "en" as const,
     path: "/en",
     otherHref: "/",
-    title: "Lapinkylä, Sirkka",
+    title: "Lapinkylä, the Kittilä siida",
     description:
-      "An independent page about the Kittilä siida in Sirkka. History, the association, and a map of the area.",
+      "The Kittilä siida in Sirkka, and a visual Sámi history: dress, dwellings, boats, work, and the book of 1674.",
     place: "Sirkka, Kittilä",
     heading: "Lapinkylä",
     intro:
@@ -110,6 +265,161 @@ export const site = {
       "This domain used to be the website of Levin Lapinkylä Oy, which offered reindeer rides, a café, and cabin stays in Sirkka. This page does not carry on that business, and you cannot make a booking here.",
     topicsHeading: "On this site",
     topics: [
+      {
+        href: "/en/dress",
+        title: "Sámi dress",
+        text: "",
+      },
+      {
+        href: "/en/houses",
+        title: "Dwellings",
+        text: "",
+      },
+      {
+        href: "/en/boats",
+        title: "Boats",
+        text: "",
+      },
+      {
+        href: "/en/fishing",
+        title: "Fishing",
+        text: "",
+      },
+      {
+        href: "/en/knitting",
+        title: "Knitting",
+        text: "",
+      },
+      {
+        href: "/en/languages",
+        title: "Languages",
+        text: "",
+      },
+      {
+        href: "/en/tools",
+        title: "Tools",
+        text: "",
+      },
+      {
+        href: "/en/work",
+        title: "Work",
+        text: "",
+      },
+      {
+        href: "/en/name",
+        title: "The name",
+        text: "",
+      },
+      {
+        href: "/en/food",
+        title: "Food",
+        text: "",
+      },
+      {
+        href: "/en/hunting",
+        title: "Hunting",
+        text: "",
+      },
+      {
+        href: "/en/women",
+        title: "Women’s work",
+        text: "",
+      },
+      {
+        href: "/en/religion",
+        title: "Religion",
+        text: "",
+      },
+      {
+        href: "/en/drum",
+        title: "The drum",
+        text: "",
+      },
+      {
+        href: "/en/games",
+        title: "Games",
+        text: "",
+      },
+      {
+        href: "/en/marriage",
+        title: "Marriage",
+        text: "",
+      },
+      {
+        href: "/en/reindeer",
+        title: "The reindeer",
+        text: "",
+      },
+      {
+        href: "/en/tax",
+        title: "Tax",
+        text: "",
+      },
+      {
+        href: "/en/fairs",
+        title: "Fairs",
+        text: "",
+      },
+      {
+        href: "/en/children",
+        title: "Children",
+        text: "",
+      },
+      {
+        href: "/en/burial",
+        title: "Burial",
+        text: "",
+      },
+      {
+        href: "/en/school",
+        title: "The school",
+        text: "",
+      },
+      {
+        href: "/en/year",
+        title: "The year",
+        text: "",
+      },
+      {
+        href: "/en/weapons",
+        title: "Weapons",
+        text: "",
+      },
+      {
+        href: "/en/beasts",
+        title: "Beasts",
+        text: "",
+      },
+      {
+        href: "/en/birds",
+        title: "Birds",
+        text: "",
+      },
+      {
+        href: "/en/metals",
+        title: "Metals",
+        text: "",
+      },
+      {
+        href: "/en/trees",
+        title: "Trees",
+        text: "",
+      },
+      {
+        href: "/en/stones",
+        title: "Stones",
+        text: "",
+      },
+      {
+        href: "/en/rivers",
+        title: "Rivers",
+        text: "",
+      },
+      {
+        href: "/en/mountains",
+        title: "Mountains",
+        text: "",
+      },
       {
         href: "/en/siida",
         title: "Siida",

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://lapinkyla.fi"),
   title: {
     default: "Lapinkylä",
-    template: "%s",
+    template: "%s | Lapinkylä",
   },
   applicationName: "Lapinkylä",
   robots: { index: true, follow: true },
