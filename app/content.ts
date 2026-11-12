@@ -80,6 +80,41 @@ export const site = {
         text: "",
       },
       {
+        href: "/puukko",
+        title: "Puukko",
+        text: "",
+      },
+      {
+        href: "/vyo",
+        title: "Vyö",
+        text: "",
+      },
+      {
+        href: "/ahkio",
+        title: "Ahkio",
+        text: "",
+      },
+      {
+        href: "/risku",
+        title: "Risku",
+        text: "",
+      },
+      {
+        href: "/kuksa",
+        title: "Kuksa",
+        text: "",
+      },
+      {
+        href: "/juustomuotti",
+        title: "Juustomuotti",
+        text: "",
+      },
+      {
+        href: "/kiisa",
+        title: "Kiisa",
+        text: "",
+      },
+      {
         href: "/tyo",
         title: "Työ",
         text: "",
@@ -298,6 +333,41 @@ export const site = {
       {
         href: "/en/tools",
         title: "Tools",
+        text: "",
+      },
+      {
+        href: "/en/knife",
+        title: "Knife",
+        text: "",
+      },
+      {
+        href: "/en/belt",
+        title: "Belt",
+        text: "",
+      },
+      {
+        href: "/en/sled",
+        title: "Sled",
+        text: "",
+      },
+      {
+        href: "/en/brooch",
+        title: "Brooch",
+        text: "",
+      },
+      {
+        href: "/en/cup",
+        title: "Cup",
+        text: "",
+      },
+      {
+        href: "/en/cheese-mold",
+        title: "Cheese mold",
+        text: "",
+      },
+      {
+        href: "/en/chest",
+        title: "Chest",
         text: "",
       },
       {
