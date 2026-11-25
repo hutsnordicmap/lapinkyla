@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Newsreader, Source_Sans_3 } from "next/font/google";
 import { headers } from "next/headers";
 import "./globals.css";
+import { Stats } from "./components/Stats";
 
 const sourceSans = Source_Sans_3({
   subsets: ["latin", "latin-ext"],
@@ -36,7 +37,10 @@ export default async function RootLayout({
       lang={lang}
       className={`${sourceSans.variable} ${newsreader.variable} h-full antialiased`}
     >
-      <body className="min-h-full font-sans">{children}</body>
+      <body className="min-h-full font-sans">
+        {children}
+        <Stats />
+      </body>
     </html>
   );
 }
